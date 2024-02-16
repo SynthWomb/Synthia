@@ -55,7 +55,7 @@ SynthiaGPT utilizes the Hugging Face Transformers library to seamlessly interact
 - **tts.py:** Text-to-speech
 - **capture_photo.py:** Capture photo with a webcam
 - **play_audio.py:** Play generated audio
-- 
+  
 <br>
 <div align="center">
 <a href="" target="_blank">
