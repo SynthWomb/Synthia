@@ -19,6 +19,12 @@
 </a>
 </div>
 <br>
+<div align="center">
+<a href="https://github.com/SynthWomb" target="_blank" align="center">
+    <img src="https://github.com/SynthWomb/Synthia/blob/main/demo_images/synthia_qr.jpg"
+        alt="SynthWomb" style="width:200px;"/>
+</a>
+</div>
 
 SynthiaGPT utilizes the Hugging Face Transformers library to seamlessly interact with a pre-trained GPT-2 model. Leveraging TensorFlow for efficient model management and AutoTokenizer for streamlined tokenization, this script empowers users to input prompts interactively and receive coherent text responses from the GPT-2 model. Additionally, the integration of the gemini library enhances the user experience by incorporating advanced generative capabilities. To ensure a smoother experience, unnecessary warning messages associated with the transformers library are effectively suppressed.
 
