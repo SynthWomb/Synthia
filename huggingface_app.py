@@ -24,6 +24,14 @@ def generate():
     prompt = request.form['prompt']
     generated_text = generate_text(prompt, model, tokenizer)
     return render_template('index.html', prompt=prompt, generated_text=generated_text)
+@app.errorhandler(405)
+def method_not_allowed(e):
+    return render_template('405.html'), 405
+
+# Error handling for 500 - Internal Server Error
+@app.errorhandler(500)
+def internal_server_error(e):
+    return render_template('505.html'), 500
 
 if __name__ == "__main__":
     webbrowser.open('http://127.0.0.1:5000/')
