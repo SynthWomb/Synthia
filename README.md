@@ -13,14 +13,22 @@
 # Synthia
 
 <div align="center">
-<a href="" target="_blank">
+<a href="https://github.com/SynthWomb" target="_blank">
     <img src="https://github.com/SynthWomb/Synthia/raw/main/demo_images/synthia00-cover.png"
         alt="SynthiaGPT">
 </a>
 </div>
 <br>
+<br>
+<div align="center">
+<a href="https://synthwomb-synthia.onrender.com/" target="_blank" align="center">
+    <img src="https://github.com/SynthWomb/Synthia/blob/main/demo_images/synthia_qr.jpg"
+        alt="SynthWomb" style="width:200px;"/>
+</a>
+</div>
+<br>
 
-SynthiaGPT utilizes the Hugging Face Transformers library to seamlessly interact with a pre-trained GPT-2 model. Leveraging TensorFlow for efficient model management and AutoTokenizer for streamlined tokenization, this script empowers users to input prompts interactively and receive coherent text responses from the GPT-2 model. Additionally, the integration of the gemini library enhances the user experience by incorporating advanced generative capabilities. To ensure a smoother experience, unnecessary warning messages associated with the transformers library are effectively suppressed.
+SynthiaGPT leverages Google's Gemini & the Hugging Face Transformers library to interact with a pre-trained GPT-2 model. It employs TensorFlow for model management and AutoTokenizer for efficient tokenization. The script enables users to input prompts interactively, generating text responses from the GPT-2 model. To improve the user experience, unnecessary warning messages related to the transformers library are effectively suppressed.
 
 ## Scripts:
 
@@ -47,7 +55,8 @@ SynthiaGPT utilizes the Hugging Face Transformers library to seamlessly interact
 - **tts.py:** Text-to-speech
 - **capture_photo.py:** Capture photo with a webcam
 - **play_audio.py:** Play generated audio
-
+  
+<br>
 <div align="center">
 <a href="" target="_blank">
     <img src="https://github.com/SynthWomb/Synthia/raw/main/demo_images/screenshot.png"
