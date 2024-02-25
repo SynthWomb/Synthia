@@ -24,7 +24,7 @@ def load_api_key(file_path='./keys.json'):
 def main():
     load_api_key('./keys.json')
     img = PIL.Image.open('image.png')
-    model = genai.GenerativeModel('gemini-pro')
+    model = genai.GenerativeModel('gemini-pro-vision')
     response = model.generate_content(img)
     print(response.text)
 
