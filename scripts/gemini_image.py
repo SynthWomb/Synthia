@@ -1,5 +1,7 @@
 import json
 import google.generativeai as genai
+import PIL.Image
+import os
 
 def load_api_key(file_path='./keys.json'):
     try:
@@ -17,3 +19,13 @@ def load_api_key(file_path='./keys.json'):
         print(f"Error: Unable to decode JSON in the file {file_path}.")
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
+
+
+def main():
+    load_api_key('./keys.json')
+    img = PIL.Image.open('image.png')
+    model = genai.GenerativeModel('gemini-pro')
+    response = model.generate_content(img)
+    print(response.text)
+
+
