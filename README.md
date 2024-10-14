@@ -1,3 +1,6 @@
+[![Twitter: @NorowaretaGemu](https://img.shields.io/badge/X-@NorowaretaGemu-blue.svg?style=flat)](https://x.com/NorowaretaGemu)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 <div align="center">
   <img alt="Python" src="https://img.shields.io/badge/python%20-%231F5B94.svg?&style=for-the-badge&logo=python&logoColor=white"/>
     <img alt="HTML5" src="https://img.shields.io/badge/html5%20-%231F5B94.svg?&style=for-the-badge&logo=html5&logoColor=white"/>
